@@ -22,6 +22,8 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
+    setWindowTitle(QStringLiteral("Enginio Todos"));
+
     m_client = new EnginioClient(Enginio::BACKEND_ID,
                                  Enginio::BACKEND_SECRET,
                                  this);
