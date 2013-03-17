@@ -20,8 +20,7 @@ Simple todo-list example application using Enginio service. Demonstrates how bas
   * Extract package and open `enginio-qt-cpp-todos.pro` file in Qt Creator
   * Run the project
 * Or:
-  * Clone the repository (and its submodules) from [GitHub](https://github.com/enginio/enginio-qt-cpp-todos)   
-    * I.e. use `git clone --recursive` 
+  * Clone the repository (and its submodules) from [GitHub](https://github.com/enginio/enginio-qt-cpp-todos) (i.e. use `git clone --recursive`)
   * Open `enginio-qt-cpp-todos.pro` file in Qt Creator
   * Go to Enginio Dashboard and create new blank backend
   * Copy Backend Id and Backend Secret from Enginio Dashboard to `applicationconfig.h` file (Qt Creator > cpp_todos > Headers)
